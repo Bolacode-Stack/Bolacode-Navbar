@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151320;
+}
+
+div {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* border: 1px solid #fff; */
+    background: linear-gradient(45deg, 
+    #fd084c 20%,
+    #fe9800 20%,
+    #fe9800 40%,
+    #fff020 40%,
+    #fff020 60%,
+    #3edf4b 60%,
+    #3edf4b 80%,
+    blueviolet 80%
+    );
+}

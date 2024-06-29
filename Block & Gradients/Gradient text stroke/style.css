@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    background-color: #111;
+}
+
+h1 {
+    color: #111;
+    font-size: 11vmin;
+    letter-spacing: 0.2em;
+    /* color: transparent; */
+    background: linear-gradient(to right,
+     #ff5757,
+      #ffb537,
+       #fff130,
+        #9ae900,
+        #15ffe1,
+        #816aff,
+        #ff0400
+         );
+         -webkit-background-clip: text;
+         -webkit-text-stroke: 0.1em transparent;
+}

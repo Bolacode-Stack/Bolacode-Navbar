@@ -1,0 +1,23 @@
+* {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Madimi One", sans-serif;
+}
+
+h2 {
+    right: -28em;
+    position: relative;
+}
+
+.example1 {
+    color: #fff;
+    width: 25%;
+    padding: 15px;
+    margin: 0 auto;
+    /* color: transparent; */
+    border: 7px dotted black;
+    background-clip: padding-box;
+    /* -webkit-background-clip: text; */
+    background-color: blueviolet;
+
+}

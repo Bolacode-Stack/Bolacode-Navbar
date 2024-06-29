@@ -7,7 +7,7 @@
     font-family: "Bangers", system-ui;
 }
 
-header {
+.header {
     display: flex;
     padding: 20px 5%;
     align-items: center;
@@ -23,25 +23,26 @@ header {
 nav ul {
     display: flex;
     list-style-type: none;
-}
+} 
 
 li a {
-    color: #FFf;
+    color: hsl(0, 0%, 100%);
     font-size: 18px;
     position: relative;
     margin-left: 30px;
     text-decoration: none;
 }
 
- li a::before {
+li a::before {
     top: 100%;
-    left: 0;
+    /* bottom: 0; */
     content: "";
     height: 2px;
     width: 0;
-    transition: 0.3s ease;
     position: absolute;
-    background: blueviolet;
+    transition: 0.3s ease;
+    background-color: blueviolet;
+
 }
 
 li a:hover::before {
@@ -52,10 +53,10 @@ li a:hover::before {
 .btn {
     color: #fff;
     cursor: pointer;
-    transition: 0.3s;
     margin-left: 10px;
-    padding: 10px 20px;
     border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.3s ease;
     text-decoration: none;
     background-color: blueviolet;
 }
@@ -63,4 +64,16 @@ li a:hover::before {
 .btn:hover {
     background-color: inherit;
     border: 2px solid blueviolet;
+}
+
+@media(max-width: 768px)  {
+    .header {
+        min-height: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
 }

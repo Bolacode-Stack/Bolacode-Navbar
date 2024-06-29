@@ -1,0 +1,21 @@
+* {
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(43deg, #4158d0, #c85060 46%, #ffcc70 100%);
+}

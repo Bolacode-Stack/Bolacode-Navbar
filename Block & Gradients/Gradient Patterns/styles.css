@@ -1,0 +1,40 @@
+/* .pattern-1 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: conic-gradient(#000 25%,
+     #eee 25% 50%,
+     #000 50% 75%,
+     #c3c3c3 75%);
+     background-size: 100px 100px;
+} */
+
+.pattern-1 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: repeating-conic-gradient(
+        #000 0deg 90deg,
+     #eee 90deg 180deg);
+
+     background-size: 100px 100px;
+}
+
+.pattern2 {
+    width: 300px;
+    height: 300px;
+    bottom: -15px;
+    margin: 0 auto;
+    position: relative;
+    background-color: blueviolet;
+    background-image: 
+    repeating-conic-gradient(
+        /* from 45deg, */
+    blueviolet 0deg 90deg,
+     magenta 90deg 180deg );
+
+     background-size: 50px 50px;
+}
+
+
+ 

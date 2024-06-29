@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #151320; */
+}
+
+div {
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: 1px solid blueviolet;
+    transform: translate(-50%,  -50%);
+    background: conic-gradient(
+        #fd084c 20%,
+        #fe9000 20%,
+        #fe9000 40%,
+        #fff820 40%,
+        #fff820 60%,
+        #3edf4b 60%,
+        #3edf4b 80%,
+        blueviolet 80%
+
+    );
+}
