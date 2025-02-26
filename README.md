@@ -1,5 +1,5 @@
 ## Screenshots 📷
 
-![](./Screenshots/Bolacode(1).png)
+![](./Images/LinksHover.png)
 
-![](./Screenshots/Screenshot%20(2).png)
+![](./Images/ButtonHover.png)
